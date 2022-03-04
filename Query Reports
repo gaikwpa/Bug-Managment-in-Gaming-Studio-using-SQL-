@@ -26,6 +26,8 @@ Select BD.bug_type, trunc(Avg(BM.bug_resolved_date - BM.bug_report_date)) as Avg
        order by Avg_Bug_Fix_Duration, No_Of_bugs desc 
 ; 
 
+
+
 --Query 3
 select * from game_details order by Game_release_date;
 SELECT game_platform
